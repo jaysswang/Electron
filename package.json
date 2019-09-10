@@ -1,0 +1,29 @@
+{
+  "name": "zmlearn",
+  "version": "2.2.0",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --win --ia32",
+    "package": "electron-packager . 123名称  --icon=assest/main.ico  --platform=win32 --arch=ia32  --ignore=node_modules --overwrite"
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^1.8.8",
+    "electron-packager": "^9.1.0",
+    "electron-rebuild": "^3.1.0"
+  },
+  "dependencies": {
+    "electron-window-manager": "^1.0.6"
+  }
+}
